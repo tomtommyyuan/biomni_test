@@ -3,37 +3,49 @@ channels:
   - conda-forge
   - defaults
   - bioconda
+
 dependencies:
+  # Core Packages
   - python=3.11
+  - numpy=2.1
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  
+  # LangChain Suite
+  - langchain
+  - langgraph=0.3.18
+  - langchain-openai
+  - langchain-anthropic
+  - langchain-ollama
+  - langchain-community
+  
+  # AI & NLP
+  - openai
+  - transformers
+  - sentencepiece
+  
+  # Web & Data Handling
+  - beautifulsoup4
+  - lxml
+  - requests
+  - pyyaml
+  
+  # Development & Notebooks
+  - jupyter
+  - notebook
+  - ipykernel
+  - pytest
+  - tqdm
+  - python-dotenv
+  - networkx
+  - gradio
+
+  # Pip section for packages not on Conda
   - pip
-  - numpy==2.1
   - pip:
-      - pandas
-      - matplotlib
-      - scipy
-      - statsmodels
-      - scikit-learn
-      - gradio
-      - langchain
-      - langgraph==0.3.18
-      - langchain-openai
-      - langchain-anthropic
-      - langchain-ollama
-      - langchain-community
-      - openai
-      - beautifulsoup4
-      - lxml
-      - tqdm
-      - seaborn
-      - networkx
-      - requests
-      - pyyaml
-      - jupyter
-      - notebook
-      - ipykernel
-      - pytest
-      - transformers
-      - sentencepiece
-      - mcp
-      - tooluniverse
-      - python-dotenv
+    - mcp
+    - tooluniverse
