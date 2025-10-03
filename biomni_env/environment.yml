@@ -35,6 +35,7 @@ dependencies:
   - pyyaml
   
   # Development & Notebooks
+  - swig
   - jupyter
   - notebook
   - ipykernel
