@@ -24,6 +24,7 @@ dependencies:
   - langchain-community
   
   # AI & NLP
+  - faiss-cpu
   - openai
   - transformers
   - sentencepiece
