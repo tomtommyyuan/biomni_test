@@ -862,6 +862,7 @@ def read_module2api():
         "systems_biology",
         "support_tools",
         "database",
+        "imaging",
     ]
 
     module2api = {}
