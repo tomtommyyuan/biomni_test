@@ -7,7 +7,7 @@ channels:
 dependencies:
   # Core Packages
   - python=3.11
-  - numpy=2.1
+  - numpy
   - pandas
   - scipy
   - matplotlib
