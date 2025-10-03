@@ -6,8 +6,8 @@ channels:
 dependencies:
   - python=3.11
   - pip
+  - numpy==2.1
   - pip:
-      - numpy==2.1
       - pandas
       - matplotlib
       - scipy
